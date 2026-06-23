@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Employee Management System</h1>
+
+<input type="text" id="empId" placeholder="Employee ID">
+
+<input type="text" id="empName" placeholder="Employee Name">
+
+<input type="text" id="department" placeholder="Department">
+
+<input type="email" id="email" placeholder="Email">
+
+<input type="number" id="salary" placeholder="Salary">
+
+<button onclick="saveEmployee()">Save Employee</button>
+
+<button onclick="logout()">Logout</button>
+
+<hr>
+
+<table>
+
+<thead>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Department</th>
+<th>Email</th>
+<th>Salary</th>
+<th>Actions</th>
+</tr>
+</thead>
+
+<tbody id="employeeTable"></tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
